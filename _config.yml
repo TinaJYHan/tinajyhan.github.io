@@ -1,0 +1,7 @@
+name: Jingyi Han Academic Website
+theme: minima 
+header_pages:
+  - index.md
+  - publications.md
+  - other.md
+  - contact.md
