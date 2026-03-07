@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #0f172a;
-    --accent-color: #2563eb;
-    --accent-hover: #1d4ed8;
-    --text-main: #334155;
-    --text-muted: #64748b;
-    --bg-main: #f8fafc;
+    --primary-color: #6a1a41;
+    --accent-color: #e84393;
+    --accent-hover: #c82a7a;
+    --text-main: #3d3338;
+    --text-muted: #756a70;
+    --bg-main: #fffdfd;
     --bg-card: #ffffff;
-    --border-color: #e2e8f0;
+    --border-color: #f7e6ef;
 }
 
 body {
@@ -73,7 +73,7 @@ nav {
 .hero {
     text-align: center;
     padding: 6rem 1rem;
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
     color: white;
     margin-bottom: 2rem;
 }
@@ -94,7 +94,7 @@ nav {
 
 .hero p {
     font-size: 1.25rem;
-    color: #cbd5e1;
+    color: #fce4ec;
     max-width: 700px;
     margin: 0 auto;
     font-weight: 300;
@@ -149,7 +149,7 @@ main h3 + p > strong:first-child {
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--accent-color);
-    background: #eff6ff;
+    background: #fdf2f8; 
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     display: inline-block;
