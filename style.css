@@ -762,20 +762,30 @@ main h3 + p strong { color: var(--accent); font-weight: 400; letter-spacing: 0.0
 
 /* ── PROFILE PHOTO ── */
 .profile-photo {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid var(--paper);
-  box-shadow: 0 8px 24px rgba(26, 22, 20, 0.12);
-  margin: 0 auto 1.8rem auto;
-  display: block;
+  width: 160px !important;
+  height: 160px !important;
+  min-width: 160px !important;
+  min-height: 160px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  border: 4px solid var(--paper) !important;
+  box-shadow: 0 8px 24px rgba(26, 22, 20, 0.12) !important;
+  margin: 0 auto 1.8rem auto !important;
+  display: block !important;
 }
 
 @media (max-width: 600px) {
   .profile-photo {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 1.5rem;
+    width: 130px !important;
+    height: 130px !important;
+    min-width: 130px !important;
+    min-height: 130px !important;
+    margin-bottom: 1.5rem !important;
   }
+}
+
+/* Force img global reset missing */
+img {
+  max-width: 100%;
+  height: auto;
 }
