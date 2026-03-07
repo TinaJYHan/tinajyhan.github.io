@@ -1,5 +1,7 @@
 name: Jingyi Han Academic Website
 theme: minima 
+kramdown:
+  parse_block_html: true
 header_pages:
   - index.md
   - publications.md

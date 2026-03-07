@@ -3,7 +3,7 @@ layout: default
 title: Experiences & Skills
 ---
 
-<main>
+<main markdown="1">
 
 <h1 class="page-title serif">工作與經歷 (Experiences)</h1>
 

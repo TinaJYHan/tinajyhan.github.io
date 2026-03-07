@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-<main>
+<main markdown="1">
 
 <h1 class="page-title serif">學術發表 (Publications)</h1>
 

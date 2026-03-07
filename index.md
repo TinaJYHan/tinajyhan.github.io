@@ -8,7 +8,7 @@ title: Bio
     <p>Ph.D. in Teaching Chinese to Speakers of Other Languages<br>Macau University of Science and Technology</p>
 </header>
 
-<main>
+<main markdown="1">
 
 ## <i class="fas fa-lightbulb"></i> 研究領域 (Research Interests)
 
