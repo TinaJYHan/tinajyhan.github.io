@@ -4,7 +4,8 @@ title: Bio
 ---
 
 <header class="hero">
-    <h1>Jingyi Han <span>韓婧怡</span></h1>
+    <img src="{{ '/IMG_3030.JPG' | relative_url }}" alt="HAN Jingyi Photo" class="profile-photo">
+    <h1>HAN Jingyi <span>韓婧怡</span></h1>
     <p>Ph.D. in Teaching Chinese to Speakers of Other Languages<br>Macau University of Science and Technology</p>
 </header>
 
