@@ -792,9 +792,12 @@ img {
 
 .hero-bg {
   position: relative;
-    background-size: cover;
+  background-size: cover;
   background-position: center;
   background-color: var(--paper);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
 }
 
 .hero-bg::before {
