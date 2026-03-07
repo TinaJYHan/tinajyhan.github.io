@@ -12,9 +12,9 @@ title: Bio
 
 ## <i class="fas fa-user-circle"></i> 關於我 (About Me)
 
-歡迎來到我的個人網站！我是**韓婧怡**，目前主要從事第二/三語言習得及國際中文教育領域的研究與教學工作。我於澳門科技大學獲得國際漢語教育博士學位。我的研究興趣主要集中在跨語言遷移、語音習得以及語言教學法等方面，致力於探索多語背景下學習者的語言認知規律。
+我目前主要從事第二/三語言習得及國際中文教育領域的研究與教學工作。我於澳門科技大學獲得國際漢語教育博士學位。我的研究興趣主要集中在跨語言遷移、語音習得以及語言教學法等方面，致力於探索多語背景下學習者的語言認知規律。
 
-Welcome to my academic website! I am **Jingyi Han**, an enthusiastic researcher and educator specializing in Second/Third Language Acquisition and International Chinese Education. I hold a Ph.D. in Teaching Chinese to Speakers of Other Languages from the Macau University of Science and Technology. My research primarily focuses on cross-linguistic influence, phonological acquisition, and language teaching methodologies, with a dedication to understanding the cognitive mechanisms of language learners in multilingual contexts.
+I am a researcher and educator specializing in Second/Third Language Acquisition and International Chinese Education. I hold a Ph.D. in Teaching Chinese to Speakers of Other Languages from the Macau University of Science and Technology. My research primarily focuses on cross-linguistic influence, phonological acquisition, and language teaching methodologies, with a dedication to understanding the cognitive mechanisms of language learners in multilingual contexts.
 
 ## <i class="fas fa-lightbulb"></i> 研究領域 (Research Interests)
 
