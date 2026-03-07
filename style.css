@@ -789,3 +789,23 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.hero-bg {
+  position: relative;
+    background-size: cover;
+  background-position: center;
+  background-color: var(--paper);
+}
+
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(to bottom, rgba(245, 240, 235, 0.4), rgba(245, 240, 235, 0.95));
+  z-index: 0;
+}
+
+.hero-bg > * {
+  position: relative;
+  z-index: 1;
+}

@@ -3,7 +3,7 @@ layout: default
 title: Bio
 ---
 
-<header class="hero">
+<header class="hero hero-bg" style="background-image: url('{{ '/IMG_4362.jpg' | relative_url }}');">
     <img src="{{ '/IMG_3030.JPG' | relative_url }}" alt="HAN Jingyi Photo" class="profile-photo">
     <h1>HAN Jingyi <span>韓婧怡</span></h1>
     <p>Ph.D. in Teaching Chinese to Speakers of Other Languages<br>Macau University of Science and Technology</p>
