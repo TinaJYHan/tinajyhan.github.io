@@ -1,5 +1,6 @@
 name: Jingyi Han Academic Website
 theme: minima 
+show_background_photo: false
 header_pages:
   - index.md
   - publications.md
