@@ -16,7 +16,7 @@
   body {
     background: var(--paper);
     color: var(--ink);
-    font-family: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif;
+    font-family: 'Inter', 'Noto Sans TC', system-ui, sans-serif;
     font-size: 18px;
     line-height: 1.7;
     overflow-x: hidden;
@@ -108,7 +108,7 @@
 
   .hero-name .chinese {
     display: block;
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Noto Sans TC', sans-serif;
     font-weight: 300;
     color: var(--accent);
     font-size: 0.65em;
@@ -196,7 +196,7 @@
   }
 
   .hero-deco-inner {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Noto Sans TC', sans-serif;
     font-size: 5rem;
     color: rgba(139, 58, 46, 0.15);
     letter-spacing: 0.2em;
@@ -240,7 +240,7 @@
   }
 
   .section-title-cn {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Noto Sans TC', sans-serif;
     font-size: 0.7em;
     color: var(--muted);
     margin-left: 0.6rem;
@@ -617,7 +617,7 @@
   }
 
   .footer-name .cn {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Noto Sans TC', sans-serif;
     color: var(--warm-mid);
     margin-left: 0.5rem;
   }
@@ -705,7 +705,7 @@
 .page-content { padding-top: 6rem; max-width: 1000px; margin: 0 auto; min-height: 100vh; }
 .hero { padding: 4rem 1.5rem; text-align: center; border-bottom: 1px solid var(--rule); margin-bottom: 3rem; opacity: 0; animation: fadeUp 0.8s 0.2s forwards; }
 .hero h1 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 300; color: var(--ink); letter-spacing: -0.01em; margin-bottom: 0.5rem; }
-.hero h1 span { font-family: "Noto Serif SC", serif; font-weight: 300; color: var(--accent); margin-left: 0.2em; }
+.hero h1 span { font-family: "Noto Sans TC", sans-serif; font-weight: 300; color: var(--accent); margin-left: 0.2em; }
 .hero p { font-style: italic; color: var(--muted); font-size: 1.15rem; line-height: 1.8; max-width: 600px; margin: 0 auto; }
 main { padding: 0 2rem 4rem; }
 main h1.page-title { font-size: 3rem; font-weight: 300; text-align: center; margin-bottom: 3rem; color: var(--ink); padding-bottom: 1.5rem; border-bottom: 1px solid var(--rule); }
