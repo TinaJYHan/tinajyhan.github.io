@@ -812,3 +812,43 @@ img {
   position: relative;
   z-index: 1;
 }
+
+/* ── CV DOWNLOAD BUTTON (hero) ── */
+.cv-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 1.6rem;
+  padding: 0.7rem 1.8rem;
+  background: var(--accent);
+  color: white !important;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  border: 1px solid var(--accent);
+  transition: background 0.25s, color 0.25s;
+}
+.cv-hero-btn:hover {
+  background: transparent;
+  color: var(--accent) !important;
+}
+
+/* ── DOI LINK (publications) ── */
+.doi-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.68rem;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  margin-top: 0.2rem;
+}
+.doi-link:hover { text-decoration: underline; text-decoration-color: var(--accent-light); }
+.doi-link i { font-size: 0.62rem; }
+
+/* tighten paragraph margin inside pub cards */
+.pub-item > p { margin-bottom: 0.3rem; }

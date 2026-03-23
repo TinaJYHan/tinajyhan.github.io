@@ -13,16 +13,27 @@ title: Contact
             <i class="fas fa-envelope"></i>
             tina.h.c@foxmail.com
         </a>
-        
-        <a href="tel:+41795790321" class="contact-btn">
-            <i class="fas fa-phone-alt"></i>
-            +41 79 579 03 21
-        </a>
 
-        <a href="tel:+8617765234014" class="contact-btn">
-            <i class="fas fa-mobile-alt"></i>
-            +86 177 6523 4014
+        {% if site.google_scholar != "" %}
+        <a href="{{ site.google_scholar }}" class="contact-btn" target="_blank" rel="noopener">
+            <i class="fab fa-google-scholar"></i>
+            Google Scholar
         </a>
+        {% endif %}
+
+        {% if site.orcid != "" %}
+        <a href="{{ site.orcid }}" class="contact-btn" target="_blank" rel="noopener">
+            <i class="fab fa-orcid"></i>
+            ORCID
+        </a>
+        {% endif %}
+
+        {% if site.researchgate != "" %}
+        <a href="{{ site.researchgate }}" class="contact-btn" target="_blank" rel="noopener">
+            <i class="fab fa-researchgate"></i>
+            ResearchGate
+        </a>
+        {% endif %}
     </div>
 </div>
 </main>

@@ -11,6 +11,9 @@ title: Bio
     <img src="{{ '/IMG_3030.JPG' | relative_url }}" alt="HAN Jingyi Photo" class="profile-photo">
     <h1>HAN Jingyi <span>韓婧怡</span></h1>
     <p>Ph.D. in Teaching Chinese to Speakers of Other Languages<br>Macau University of Science and Technology</p>
+    <a href="{{ '/HJY_CV.pdf' | relative_url }}" class="cv-hero-btn" download>
+        <i class="fas fa-download"></i> Download CV
+    </a>
 </header>
 
 <main markdown="1">

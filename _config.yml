@@ -1,8 +1,16 @@
 name: Jingyi Han Academic Website
-theme: minima 
+theme: minima
 show_background_photo: false
 header_pages:
   - index.md
   - publications.md
   - other.md
   - contact.md
+
+# ── ACADEMIC PROFILE LINKS ────────────────────────────────
+# Paste the full URL for each profile you have.
+# Leave blank ("") to hide that button on the Contact page.
+# ─────────────────────────────────────────────────────────
+google_scholar: ""   # e.g. https://scholar.google.com/citations?user=XXXXXXX
+orcid:          ""   # e.g. https://orcid.org/0000-0000-0000-0000
+researchgate:   ""   # e.g. https://www.researchgate.net/profile/Jingyi-Han

@@ -9,72 +9,56 @@ title: Experiences & Skills
 
 ## <i class="fas fa-briefcase"></i> 工作經歷 (Employment)
 
-### 中文教師
-**2024.06 – 至今** | *Little Mandarin 中文學校* · 瑞士 蘇黎世
-* 主講3-15歲中文綜合課、活動課；教授YCT、Easy Step等系列中文課程。
-
-### 採編 / 社長助理
-**2023.06 – 2024.01** | *澳門商報* · 中國 澳門
-* 負責接待聯絡內地各省市委宣傳部，撰寫政府行政公文及各類文書。
-* 策劃各類新聞及會展活動（如2023澳門國際文化美食節），撰寫人物專訪稿。
-
-### 中文教師 / 優秀志願者
-**2022.08 – 2023.03** | *泰國川登喜大學素攀孔子學院* · 泰國 素攀
-* 擔任本科生專業中文課、HSK專題課及大學教職員工中文培訓課講師。
-* 策劃中秋、國慶及孔院開放日等文化活動，編寫本土化教材。
-* 擔任泰國中西部中文學術大賽評委；負責HSK、YCT考務工作。
-
-### 實習研究員 (教育學院)
-**2021.07 – 2021.10** | *澳門大學* · 中國 澳門
-* 參與口述歷史田野調查，撰寫《氹仔簡史》。
-* 參與澳門托幼機構標準制定走訪調查。
-
-### 執行董事 / 創始人
-**2017.07 – 2021.12** | *珠海北辰啟賦素質教育* · 中國 珠海
-* Peekaboo托育項目創始人；統籌運營情況、策劃市場營銷活動。
-* 組織舉辦全國青少年軟件編程等級考試。
-
-### 華語實習教師
-**2018.10 – 2018.12** | *台灣東海大學 (華語中心)* · 中國 台灣
-* 負責混合國籍留學生華語綜合課教學，策劃跨文化交流活動。
-
-### 中文專修班教師 / 助教
-**2017.10 – 2018.02** | *澳門科技大學 (國際學院)* · 中國 澳門
-* 負責韓國留學生中級漢語教學、漢字書法工作坊及教材編寫。
-* 協助外籍教職員工漢語課堂教學及跨文化交際活動。
+{% for job in site.data.employment %}
+<h3>{{ job.title }}</h3>
+<p><strong>{{ job.period }}</strong> | <em>{{ job.organization }}</em> · {{ job.location }}</p>
+<ul>
+{% for duty in job.duties %}
+<li>{{ duty }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
 
 
 ## <i class="fas fa-project-diagram"></i> 科研項目 (Grants & Projects)
 
-* **主要參與者**: 澳門科技大學研究基金項目《三語學習者語音習得研究》 (編號: FRG-24-035-UIC)
-* **受支持**: 國家社科重大招標項目“漢語國際傳播動態數據庫建設及發展監測研究” (編號: 17ZDA306)
-* **受資助**: 教育部語合中心2021年度《國際中文水平等級標準》教學資源建設重點項目 (編號: YHJC21ZD-076)
-* **受資助**: 北京語言大學2022年國際中文教育教改重點項目 (編號: GJGZ202203)
-* **主要參與者**: 河南省教育廳2022人文社科一般項目 (互動語言學視域下PPT演示語言轉換)
-* **主要參與者**: 黑龍江大學專項資金項目《首爾大學奎章閣館藏<愁州謫錄>所記滿語方言整理研究》 (編號: 2023-KYYWF1601)
+<ul>
+{% for grant in site.data.grants %}
+<li><strong>{{ grant.role }}</strong>: {{ grant.title }}{% if grant.number != "" %} (編號: {{ grant.number }}){% endif %}</li>
+{% endfor %}
+</ul>
 
 
 ## <i class="fas fa-tools"></i> 技能與語言 (Skills & Languages)
 
 ### 語言 (Languages)
-* **普通話** (Native / 二級甲等)
-* **English** (TEM-4)
-* **Deutsch** (A2)
-* **Português** (Beginner)
-* **ไทย** (Beginner)
+<ul>
+{% for lang in site.data.skills.languages %}
+<li><strong>{{ lang.name }}</strong> ({{ lang.level }})</li>
+{% endfor %}
+</ul>
 
 ### 專業軟件 (Software Skills)
-* **R語言** (數據分析)
-* **Praat** (語音分析)
+<ul>
+{% for sw in site.data.skills.software %}
+<li><strong>{{ sw.name }}</strong> ({{ sw.note }})</li>
+{% endfor %}
+</ul>
 
 ### 其他技能 (Other Skills)
-* 古箏、主持、書法繪畫
+<ul>
+{% for skill in site.data.skills.other %}
+<li>{{ skill }}</li>
+{% endfor %}
+</ul>
 
 
 ## <i class="fas fa-chalkboard-teacher"></i> 研學經歷 (Training)
 
-* 山東大學語料庫語言學研修班 (濟南)
-* 陝西師範大學語言教育研修班 (西安)
-* 赴泰國國際中文教師志願者崗前、崗中培訓 (曼谷)
+<ul>
+{% for t in site.data.training %}
+<li>{{ t.name }} ({{ t.location }})</li>
+{% endfor %}
+</ul>
 
 </main>

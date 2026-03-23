@@ -1,0 +1,20 @@
+# ═══════════════════════════════════════════════════════════
+# HOW TO ADD TRAINING / PROFESSIONAL DEVELOPMENT
+# ═══════════════════════════════════════════════════════════
+#
+# Each entry: name of the programme and its location.
+#
+# EXAMPLE:
+#   - name: "Summer Institute in Linguistics"
+#     location: "Geneva"
+#
+# ═══════════════════════════════════════════════════════════
+
+- name: "山東大學語料庫語言學研修班"
+  location: "濟南"
+
+- name: "陝西師範大學語言教育研修班"
+  location: "西安"
+
+- name: "赴泰國國際中文教師志願者崗前、崗中培訓"
+  location: "曼谷"

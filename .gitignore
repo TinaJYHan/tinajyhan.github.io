@@ -417,3 +417,10 @@ FodyWeavers.xsd
 *.msm
 *.msp
 .DS_Store
+
+# Jekyll build output and local gems
+_site/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock

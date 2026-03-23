@@ -1,0 +1,73 @@
+# ═══════════════════════════════════════════════════════════
+# HOW TO ADD A NEW JOB
+# ═══════════════════════════════════════════════════════════
+#
+# Add a new entry at the TOP of the list (most recent first).
+# Copy the block below and fill in each field:
+#
+#   - title: "Job Title"
+#     period: "YYYY.MM – YYYY.MM"
+#     organization: "Organisation Name"
+#     location: "Country City"
+#     duties:
+#       - "First responsibility."
+#       - "Second responsibility."
+#
+# Indentation matters — keep two spaces before each dash.
+#
+# ═══════════════════════════════════════════════════════════
+
+- title: "中文教師"
+  period: "2024.06 – 至今"
+  organization: "Little Mandarin 中文學校"
+  location: "瑞士 蘇黎世"
+  duties:
+    - "主講3-15歲中文綜合課、活動課；教授YCT、Easy Step等系列中文課程。"
+
+- title: "採編 / 社長助理"
+  period: "2023.06 – 2024.01"
+  organization: "澳門商報"
+  location: "中國 澳門"
+  duties:
+    - "負責接待聯絡內地各省市委宣傳部，撰寫政府行政公文及各類文書。"
+    - "策劃各類新聞及會展活動（如2023澳門國際文化美食節），撰寫人物專訪稿。"
+
+- title: "中文教師 / 優秀志願者"
+  period: "2022.08 – 2023.03"
+  organization: "泰國川登喜大學素攀孔子學院"
+  location: "泰國 素攀"
+  duties:
+    - "擔任本科生專業中文課、HSK專題課及大學教職員工中文培訓課講師。"
+    - "策劃中秋、國慶及孔院開放日等文化活動，編寫本土化教材。"
+    - "擔任泰國中西部中文學術大賽評委；負責HSK、YCT考務工作。"
+
+- title: "實習研究員 (教育學院)"
+  period: "2021.07 – 2021.10"
+  organization: "澳門大學"
+  location: "中國 澳門"
+  duties:
+    - "參與口述歷史田野調查，撰寫《氹仔簡史》。"
+    - "參與澳門托幼機構標準制定走訪調查。"
+
+- title: "執行董事 / 創始人"
+  period: "2017.07 – 2021.12"
+  organization: "珠海北辰啟賦素質教育"
+  location: "中國 珠海"
+  duties:
+    - "Peekaboo托育項目創始人；統籌運營情況、策劃市場營銷活動。"
+    - "組織舉辦全國青少年軟件編程等級考試。"
+
+- title: "華語實習教師"
+  period: "2018.10 – 2018.12"
+  organization: "台灣東海大學 (華語中心)"
+  location: "中國 台灣"
+  duties:
+    - "負責混合國籍留學生華語綜合課教學，策劃跨文化交流活動。"
+
+- title: "中文專修班教師 / 助教"
+  period: "2017.10 – 2018.02"
+  organization: "澳門科技大學 (國際學院)"
+  location: "中國 澳門"
+  duties:
+    - "負責韓國留學生中級漢語教學、漢字書法工作坊及教材編寫。"
+    - "協助外籍教職員工漢語課堂教學及跨文化交際活動。"

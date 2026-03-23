@@ -1,0 +1,68 @@
+# ═══════════════════════════════════════════════════════════
+# HOW TO ADD A NEW PUBLICATION
+# ═══════════════════════════════════════════════════════════
+#
+# 1. Find the right section below:
+#      journal_articles      → 期刊論文
+#      conference_proceedings → 會議論文
+#      books_translations    → 著作與譯作
+#
+# 2. Add a new entry starting with a dash and two spaces (- ).
+#    Keep the same indentation as the existing entries.
+#
+# 3. Write the full citation in citation: "..."
+#    Use **double asterisks** to bold the author name.
+#    Use *single asterisks* for italics (journal/conference name).
+#
+# 4. doi: paste just the DOI number (e.g. "10.12345/xyz").
+#    Leave doi: "" if there is no DOI.
+#
+# 5. status: "under_review" shows an "Under Review" badge.
+#    Remove that line (or leave blank) for published work.
+#
+# EXAMPLE — copy this block and fill it in:
+#
+#   - citation: "**Han, J.** (2025). My New Paper. *Journal Name*, 1(1): 1-20."
+#     doi: "10.12345/example"
+#     status: under_review
+#
+# ═══════════════════════════════════════════════════════════
+
+journal_articles:
+
+  - citation: "**Han, J.**, Wang, T, and Zhang, M. L3 Acquisition of Mandarin Chinese Stop Consonants by Learners with L1 Spanish/Thai and L2 English."
+    doi: ""
+    status: under_review
+
+  - citation: "**韓婧怡**, 王婷. (2025). 西班牙中文三語學習者塞音產出及偏誤研究. 《澳門科技大學學報（人文社會科學版）》, 19(4): 155-186."
+    doi: "10.58664/mustjournal.2025.12.007"
+
+
+conference_proceedings:
+
+  - citation: "**韓婧怡**, 王婷, 唐千航. (2025). 從傳教士來華到漢學興起：澳門在漢語教育與中歐文化交流中的歷史作用. *第三屆華語教學發展史國際研討會，瑞士日內瓦*."
+    doi: ""
+
+  - citation: "**韓婧怡**, 王婷, 張淼. (2024). 瑞士蘇黎世州國際中文教育發展概況與國際傳播敘事. *世界漢語教學學會第十五屆國際中文教學研討會，澳門*."
+    doi: ""
+
+  - citation: "**韓婧怡**, 王婷. (2024). 區域國別視域下國際中文語音教學及理論探索——以西班牙中文學習者語音跨語言遷移實證研究為例. *世界漢語教學學會第十五屆國際中文教學研討會，澳門*."
+    doi: ""
+
+  - citation: "**韓婧怡**, 王婷. (2023). 西語母語者（L2英語）的L3普通話塞音產出研究. *國際中國語言學學會第29屆年會 (IACL-29)*."
+    doi: ""
+
+  - citation: "**韓婧怡**, 張淼. (2022). 後疫情時代下中文教育研究——巴佈亞新幾內亞中文教育發展概況. *數字化國際中文教育*. 052213, 北京."
+    doi: ""
+
+  - citation: "**韓婧怡**. (2021). 學術漢語——國際中文教育新課題. *第十二屆中文教學現代化國際研討會論文集*, 83-97, 越南胡志明."
+    doi: ""
+
+  - citation: "**韓婧怡**. (2018). 現代化背景下漢語水平考試的發展趨勢. *中文教學現代化學會論文集*."
+    doi: ""
+
+
+books_translations:
+
+  - citation: "**韓婧怡** (譯). (2023). 《幻想速寫·故事篇》. 北京: 中國青年出版社. ISBN: 9787515368931."
+    doi: ""

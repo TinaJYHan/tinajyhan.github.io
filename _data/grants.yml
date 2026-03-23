@@ -1,0 +1,39 @@
+# ═══════════════════════════════════════════════════════════
+# HOW TO ADD A NEW GRANT OR PROJECT
+# ═══════════════════════════════════════════════════════════
+#
+# Each entry has three fields:
+#   role:   your role (e.g. "主要參與者", "受資助", "PI")
+#   title:  full project title
+#   number: grant/project number — leave "" if none
+#
+# EXAMPLE:
+#   - role: "PI"
+#     title: "新項目名稱"
+#     number: "ABC-2026-001"
+#
+# ═══════════════════════════════════════════════════════════
+
+- role: "主要參與者"
+  title: "澳門科技大學研究基金項目《三語學習者語音習得研究》"
+  number: "FRG-24-035-UIC"
+
+- role: "受支持"
+  title: "國家社科重大招標項目「漢語國際傳播動態數據庫建設及發展監測研究」"
+  number: "17ZDA306"
+
+- role: "受資助"
+  title: "教育部語合中心2021年度《國際中文水平等級標準》教學資源建設重點項目"
+  number: "YHJC21ZD-076"
+
+- role: "受資助"
+  title: "北京語言大學2022年國際中文教育教改重點項目"
+  number: "GJGZ202203"
+
+- role: "主要參與者"
+  title: "河南省教育廳2022人文社科一般項目（互動語言學視域下PPT演示語言轉換）"
+  number: ""
+
+- role: "主要參與者"
+  title: "黑龍江大學專項資金項目《首爾大學奎章閣館藏〈愁州謫錄〉所記滿語方言整理研究》"
+  number: "2023-KYYWF1601"

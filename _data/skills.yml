@@ -1,0 +1,32 @@
+# ═══════════════════════════════════════════════════════════
+# HOW TO EDIT SKILLS
+# ═══════════════════════════════════════════════════════════
+#
+# languages: add/edit languages with name and level
+# software:  add/edit tools with name and a short note
+# other:     add/edit other skills or hobbies (one per line)
+#
+# ═══════════════════════════════════════════════════════════
+
+languages:
+  - name: "普通話"
+    level: "Native / 二級甲等"
+  - name: "English"
+    level: "TEM-4"
+  - name: "Deutsch"
+    level: "A2"
+  - name: "Português"
+    level: "Beginner"
+  - name: "ไทย"
+    level: "Beginner"
+
+software:
+  - name: "R語言"
+    note: "數據分析"
+  - name: "Praat"
+    note: "語音分析"
+
+other:
+  - "古箏"
+  - "主持"
+  - "書法繪畫"
